@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Courier New", Courier, monospace;
+  background: linear-gradient(to left bottom, lightgreen, lightblue);
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+  width: 400px;
+  margin: 5px;
+}
+
+.container h1 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.container input {
+  padding: 10px 20px;
+  font-size: 18px;
+  background: rgba(255, 255, 255, 0.4);
+  border-color: rgba(255, 255, 255, 0.4);
+  border-radius: 10px;
+  margin: 10px;
+  outline: none;
+}
+
+.container button {
+  background-color: lightgreen;
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+}
+
+.container button:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  background-color: darkgreen;
+  transition: all 0.3s ease;
+}
+
+.container h4 {
+  font-size: 20px;
+}
+
+.container h2 {
+  font-size: 30px;
+}
+
+.container input::-webkit-outer-spin-button,
+.container input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.container input {
+  -moz-appearance: textfield;
+}
